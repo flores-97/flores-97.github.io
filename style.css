@@ -59,15 +59,15 @@ footer{
 
 a{
     display: inline-block;
-    border: orangered;
+    border: blue;
     text-decoration: none;
-    color: black;
+    color: purple;
     transition: all 0.3s ease;
 }
 
 a:hover{
-    background-color: black;
-    color: white;
+    background-color: floralwhite;
+    color: purple;
 }
 
 h3, h2, a{
