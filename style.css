@@ -1,0 +1,81 @@
+nav li{
+    width: 150px;
+    float: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    
+}
+
+nav h1{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    border-style: ridge;
+    background-color: lightskyblue;
+    color: aliceblue;
+}
+
+body{
+    background-color: aliceblue;
+    text-align: justify;
+}
+
+footer{
+    text-align: center;
+}
+
+.feature-card{
+    /*general styling using "class"*/
+    border: 2px solid #7f8c8d;
+    padding: 20px; /*space inside box*/
+    margin: 20px; /*space outside box*/
+    background-color: #f9f9f9; /*color inside box*/
+}
+
+/*styling h3 within class*/
+.feature-card h3{
+    font-size: 20px; /*default size*/
+    margin-bottom: 10px; /*adding space below heading*/
+    color: #2c3e50;
+}
+
+
+
+/*styling p within class*/
+.feature-card p{
+    margin-bottom: 10px; /*add space below p*/
+    color: #7f8c8d;
+}
+
+#special-feature{
+    background-color: #fde3a7;
+    border-color: #f39c12;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a{
+    display: inline-block;
+    border: orangered;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+h3, h2, p, a{
+    text-align: center;
+}
+
+#images{   
+    margin-top:90px;
+    margin-left: auto; 
+    margin-right: auto;
+  }
