@@ -15,12 +15,12 @@ nav h1{
 header{
     text-align: center;
     border-style: ridge;
-    background-color: lightskyblue;
+    background-color: rgb(23, 23, 126);
     color: aliceblue;
 }
 
 body{
-    background-color: aliceblue;
+    background-color: rgb(196, 196, 196);
     text-align: justify;
 }
 
@@ -33,14 +33,14 @@ footer{
     border: 2px solid #7f8c8d;
     padding: 20px; /*space inside box*/
     margin: 20px; /*space outside box*/
-    background-color: #f9f9f9; /*color inside box*/
+    background-color: rgb(23, 23, 126); /*color inside box*/
 }
 
 /*styling h3 within class*/
 .feature-card h3{
     font-size: 20px; /*default size*/
     margin-bottom: 10px; /*adding space below heading*/
-    color: #2c3e50;
+    color: #000000;
 }
 
 
@@ -48,11 +48,11 @@ footer{
 /*styling p within class*/
 .feature-card p{
     margin-bottom: 10px; /*add space below p*/
-    color: #7f8c8d;
+    color: #000000;
 }
 
 #special-feature{
-    background-color: #fde3a7;
+    background-color: rgb(23, 23, 126);
     border-color: #f39c12;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -61,13 +61,13 @@ a{
     display: inline-block;
     border: blue;
     text-decoration: none;
-    color: purple;
+    color: white;
     transition: all 0.3s ease;
 }
 
 a:hover{
     background-color: floralwhite;
-    color: purple;
+    color: black;
 }
 
 h3, h2, a{
@@ -88,4 +88,5 @@ h3, h2, a{
     border: 1px solid black;
     text-align: center;
   }
+
 
