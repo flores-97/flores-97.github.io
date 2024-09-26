@@ -80,4 +80,12 @@ h3, h2, a{
     margin-right: auto;
   }
 
+  table{
+    border-collapse: collapse;
+  }
+
+  table td{
+    border: 1px solid black;
+    text-align: center;
+  }
 
