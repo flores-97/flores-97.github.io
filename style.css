@@ -47,5 +47,25 @@ header{
 
  .footer{
   align-items: center;
-
  }
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: coral;
+}
+
+li{
+  list-style: none;
+  text-align: center;
+  padding-right: 1em;
+}
+
+a:hover{
+  color: blue;
+}
+
+a{
+  color: coral;
+  text-decoration: none;
+}
