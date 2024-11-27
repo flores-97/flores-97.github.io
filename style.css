@@ -32,7 +32,20 @@ header{
     grid-area: preamble;
   }
 
-  .main-supporting{
+  #zen-supporting{
     display: grid;
-    grid-template-rows: 250px auto 250px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 10px; 
+    padding: 1em;
+    background-color: rgba(247, 214, 164, 0.50);
   }
+
+  h3{ 
+    text-align: center;
+  }
+
+ .footer{
+  align-items: center;
+
+ }
