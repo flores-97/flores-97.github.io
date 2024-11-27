@@ -1,0 +1,38 @@
+#css-zen-garden{
+    background-color: blanchedalmond;
+    border: 1em;
+    border-style: groove;
+    border-color: black;
+}
+
+#zen-intro {
+    display: grid;
+    grid-template-areas: "header header" "summary preamble";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    border-bottom: solid 1px;
+  }
+  
+header{
+    grid-area: header;
+    text-align: center;
+}
+  
+#zen-summary {
+    grid-area: summary;
+    text-align: left;
+    float: right;
+    width: 65%;
+    padding-left: 5em;
+    padding-top: 4em;
+    
+  }
+
+  #zen-preamble {
+    grid-area: preamble;
+  }
+
+  .main-supporting{
+    display: grid;
+    grid-template-rows: 250px auto 250px;
+  }
