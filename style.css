@@ -52,7 +52,7 @@ header{
 .wrapper{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  color: coral;
+  color: rgb(255, 111, 58);
 }
 
 li{
@@ -67,5 +67,5 @@ a:hover{
 
 a{
   color: coral;
-  text-decoration: none;
+  text-decoration: underline;
 }
