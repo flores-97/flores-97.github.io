@@ -69,3 +69,9 @@ a{
   color: coral;
   text-decoration: underline;
 }
+
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
