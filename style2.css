@@ -81,6 +81,12 @@ footer{
     column-gap: 20px;
 }
 
+li{
+    list-style: none;
+}
 
+h3{
+    text-align: center;
+}
 
 
