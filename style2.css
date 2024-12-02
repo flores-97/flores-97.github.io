@@ -50,7 +50,7 @@ a:hover{
 }
 
 a:visited {
-    color: #0c370c7f;
+    color: navy;
   }
 
 a{
@@ -60,9 +60,8 @@ a{
 }
 
 footer{
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
+    position: bottom;
+    text-align: center;
 }
 
 .sidebar{
