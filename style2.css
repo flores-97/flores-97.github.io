@@ -65,7 +65,7 @@ footer{
 }
 
 .sidebar{
-    background-color: #f0f0f0;
+    background-color: #ccc;
     border: 2px solid #333;
     padding: 20px;
     font-family: Georgia, serif;
@@ -73,7 +73,7 @@ footer{
 }
 
 #design-selection, #design-archives, #zen-resources{
-    border: 1px solid black;
+    border: 1px solid #eee;
     margin-bottom: 10px;
     padding: 10px;
     text-align: center;
@@ -81,6 +81,7 @@ footer{
 }
 
 .wrapper {
+    background-color: black;
     display: flex;
     flex-direction: column;
     border: 1px solid #ccc;
