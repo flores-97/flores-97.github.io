@@ -4,6 +4,7 @@
     border-style: groove;
     border-color: black;
 }
+/*placed a boreder and the color changed for the entire page*/
 
 #zen-intro {
     display: grid;
@@ -12,7 +13,8 @@
     grid-template-rows: auto auto;
     border-bottom: solid 1px;
   }
-  
+  /* divided the intro section*/
+
 header{
     grid-area: header;
     text-align: center;
@@ -27,6 +29,7 @@ header{
     padding-top: 4em;
     
   }
+/* created a box and content was set to the bottom right of the section*/
 
   #zen-preamble {
     grid-area: preamble;
@@ -40,6 +43,7 @@ header{
     padding: 1em;
     background-color: rgba(247, 214, 164, 0.50);
   }
+  /*evenly created a grid for each*/
 
   h3{ 
     text-align: center;
