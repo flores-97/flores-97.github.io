@@ -3,6 +3,7 @@
     font-weight: 400;
     font-style: normal;
   }
+/*the font was set*/
 
 header{
     background-color: #f0f0f0;
@@ -11,6 +12,7 @@ header{
     text-align: center;
     padding: 20px 0;
 }
+/*the header was set to be centered with a light gray background*/
 
 #zen-summary{
     font-family: sans-serif;
@@ -20,6 +22,7 @@ header{
     padding: 15px;
     margin-bottom: 20px;
 }
+/* the summary was set with a lighter background*/
 
 #zen-preamble{
     Font: sans-serif;
@@ -30,7 +33,7 @@ header{
     margin-bottom: 1.5rem;
     Border-bottom: 1px solid #eee;
 }
-
+/*the preamble was set to a shade of white with a border that was slightly darker. */
 #zen-supporting{
     background-color: #f0f0f0;
     border: 1px solid #ccc;
@@ -39,8 +42,7 @@ header{
     margin: 20px 0;
     line-height: 140%;
 }
-
-
+/*zen supporting was boxed and shaded with a light gray background. It also has a border around the entire section*/
 
 a:hover{
     color:#112f117e;
@@ -48,17 +50,18 @@ a:hover{
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.500);
 }
+/*when hovering over a link, the color changes and it becomes boxed*/
 
 a:visited {
     color: navy;
   }
-
+/*the section above and below are to change the color of the links before and after they have been visited*/
 a{
     color: blue;
     font-style: italic;
     text-decoration: wavy;
 }
-
+/*the footer was set to be at the bottom and center of the block*/
 footer{
     position: bottom;
     text-align: center;
@@ -71,6 +74,7 @@ footer{
     font-family: Georgia, serif;
     color: #333;
 }
+/*the side bar was sectioned out with a background color that is a shade of white*/
 
 #design-selection, #design-archives, #zen-resources{
     border: 1px solid #eee;
@@ -79,7 +83,7 @@ footer{
     text-align: center;
     background-color: #ccc;
 }
-
+/*this divide each section into their own borders with the same styles.*/
 .wrapper {
     background-color: black;
     display: flex;
@@ -90,13 +94,13 @@ footer{
     column-count: 3;
     column-gap: 20px;
 }
-
+/*provided the black border to surround each section*/
 li{
     list-style: none;
 }
-
+/*rmvd the bullet points for the list*/
 h3{
     text-align: center;
 }
-
+/*aligned all h3 to center*/
 
